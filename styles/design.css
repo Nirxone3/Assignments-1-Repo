@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.new-year {
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 16px;
+  }
+
+  .container {
+    position: absolute;
+    font-size: 1.2em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .container h5  {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .container {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 30px;
+  }
+
+.offers h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offers p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.party h2{
+    position: absolute;
+    border: 5em;
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
